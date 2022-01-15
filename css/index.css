@@ -203,3 +203,20 @@
     grid-column: span 2;
     margin-bottom: 10px;
 }
+
+
+/*----------------For Footer--------*/
+footer{
+    width:100%;
+    text-align: center;/*For aligning text at the end in center*/
+    justify-content: end;
+    color: #fff;
+    background-color:black;
+    font-size: 20px;
+    padding: 50px;
+}
+
+#pageFooter a{
+    color:#383838;
+}
+
