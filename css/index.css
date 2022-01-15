@@ -1,4 +1,5 @@
 @import 'nav.css';
+@import 'footer.css';
 
 .hero-section{
     width:100%;
@@ -206,17 +207,3 @@
 
 
 /*----------------For Footer--------*/
-footer{
-    width:100%;
-    text-align: center;/*For aligning text at the end in center*/
-    justify-content: end;
-    color: #fff;
-    background-color:black;
-    font-size: 20px;
-    padding: 50px;
-}
-
-#pageFooter a{
-    color:#383838;
-}
-
