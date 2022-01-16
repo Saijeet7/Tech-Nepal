@@ -7,73 +7,14 @@
         <title>Product</title>
 
         <link rel="stylesheet" href="css/home.css">
-        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/search.css">
     </head>
     <body>
         <!-- Nav bar -->
         <nav class="navbar"></nav>
 
-        <section class="product-details">
-            <div class="image-slider">
-                <div class="product-images">
-                    <img src="img/product image 1.jpg" class="active" alt="">
-                    <img src="img/product image 2.jpg"  alt="">
-                    <img src="img/product image 3.jpg"  alt="">
-                    <img src="img/product image 4.jpg"  alt="">
-                </div>
-            </div>
-            <div class="details">
-                <h2 class="product-band">Apple</h2>
-                <p class="product-short-des">Lorem ipsum dolor sit amet, consectetur adip elementum</p>
-                <span class="product-price">Rs.1,60,000</span>
-                <span class="product-actual-price">Rs.2,50,000</span>
-                <span class="product-discount">( 40% off )</span>
-
-                <p class="product-sub-heading">Select storage</p>
-
-                <input type="radio" name="storage" value="256gb" checked hidden id="256gb">
-                <label for="256gb" class="storage-radio-btn check">256gb</label>
-                <input type="radio" name="storage" value="512gb" hidden id="512gb">
-                <label for="512gb" class="storage-radio-btn">512gb</label>
-                <input type="radio" name="storage" value="1tb" hidden id="1tb">
-                <label for="1tb" class="storage-radio-btn">1tb</label>
-
-
-                <p class="product-sub-heading">Select Ram</p>
-
-                <input type="radio" name="ram" value="8gb" checked hidden id="8gb">
-                <label for="8gb" class="ram-radio-btn check">8gb</label>
-                <input type="radio" name="ram" value="16gb" hidden id="16gb">
-                <label for="16gb" class="ram-radio-btn">16gb</label>
-                <input type="radio" name="ram" value="32gb" hidden id="32gb">
-                <label for="32gb" class="ram-radio-btn">32gb</label>
-                <input type="radio" name="ram" value="64gb" hidden id="64gb">
-                <label for="64gb" class="ram-radio-btn">64gb</label>
-
-
-                <button class="btn cart-btn">add to cart</button>
-                <button class="btn wishlist-btn">add to whishlist</button>
-
-            </div>
-        </section>
-
-        <section class="detail-des">
-            <h2 class="heading">description</h2>
-            <p class="des">"MacBook" is a term used for a brand of Mac notebook computers that Apple started producing in 2006. The American multinational corporation created MacBook computers when it consolidated its PowerBook and iBook lines during its transition to Intel processor-based products. As of 2013, there are two types of MacBook computers: the base-level MacBook Air and the upper-level MacBook Pro.
-                The MacBook is carved out of solid aluminum, thus giving it a distinctive look and a grayish-white hue. The MacBook Air in particular has a thin and light design.Apple splits the MacBook Pro into a 13-inch and a 15-inch, with the latter consisting of a 15.4-inch screen. Each computer has a full-size, backlit 78-key keyboard.
-                Apple bundles each MacBook with the OS X operating system. On each computer there's a dual-core processor from Intel’s Intel Core brand, with Turbo Boost technology for increased performance. Each MacBook Air gets a mid-range Intel Core i5, with a processing speed of 1.7 or 1.8 GHz. The 13-inch MacBook Pro has a 2.5- or 2.9-GHz chip, while the one on the 15-inch MacBook Pro is a more powerful but slower 2.3 GHz quad-core Intel Core i7. Peak installed memory on the MacBook Air is 8GB, with 1600MHz DDR3 architecture.
-                The built-in Intel HD Graphics 4000 handles basic video duties, with the 15-inch MacBook Pro getting a more advanced NVIDIA GeForce GT 650M. Audio specifications include stereo speakers and a headphone port, with one omnidirectional microphone on the MacBook Air and two on the MacBook Pro. Wireless technology on the MacBook consists of Bluetooth 4.0 wireless technology for streaming audio and a Wi-Fi network adapter that enables Web browsing. Also included is a FaceTime Camera with a peak resolution of 720 pixels. For storage, the MacBook Air has a 64- or 128-GB flash drive, while the MacBook Pro has 500 or 750GB of hard drive space. Added on the MacBook Pro is an 8x Super Drive slot for playing CDs and DVDs.
-                Apart from the aforementioned headphone jack, each MacBook has at least one port for the power adapter, two USB 3.0 ports and Apple/Intel’s Thunderbolt interface. A Secure Digital flash memory card slot is present on all models but the 11-inch MacBook Air. Exclusive to the MacBook Pro are an Ethernet port for wired internet connection, FireWire 800 port for data transfer and an anti-theft device called Kensington Security Slot. The 15-inch MacBook Pro is the only model with audio line-in and audio line-out jacks for recording purposes.
-                Each MacBook Pro has a high-resolution, LED-backlit glossy widescreen display. The maximum native resolution on the MacBook is 1,440 by 900 pixels. However, Apple provides a Retina Display option for the MacBook Pro that boosts resolution to 2,880 by 1,800 pixels. For power, the MacBook relies on a built-in lithium-polymer battery and a MagSafe 2 power adapter.
-
-            </p>
-        </section>
-
-        <!--Cards Container--> 
-        <section class="product">
-            <h2 class="product-category">Laptop</h2>
-            <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-            <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+        <section class="search-results">
+            <h2 class="heading">search results for <span>product</span></h2>
             <div class="product-container">
                 <div class="product-card">
                     <div class="product-image">
@@ -159,113 +100,74 @@
                         <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
                     </div>
                 </div>
-
-
-            </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/card8.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whishlist</button>
+                    </div>    
+                    <div class="product-info">
+                        <h2 class="product-brand">branding</h2>
+                        <p class="product-short-des">a short line about gadget..</p>
+                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/card9.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whishlist</button>
+                    </div>    
+                    <div class="product-info">
+                        <h2 class="product-brand">branding</h2>
+                        <p class="product-short-des">a short line about gadget..</p>
+                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/card10.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whishlist</button>
+                    </div>    
+                    <div class="product-info">
+                        <h2 class="product-brand">branding</h2>
+                        <p class="product-short-des">a short line about gadget..</p>
+                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/card11.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whishlist</button>
+                    </div>    
+                    <div class="product-info">
+                        <h2 class="product-brand">branding</h2>
+                        <p class="product-short-des">a short line about gadget..</p>
+                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/card12.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whishlist</button>
+                    </div>    
+                    <div class="product-info">
+                        <h2 class="product-brand">branding</h2>
+                        <p class="product-short-des">a short line about gadget..</p>
+                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
+                    </div>
+                </div>
+            </div>            
         </section>
-        <!--Cards Container--> 
-        <section class="product">
-            <h2 class="product-category">Mobile</h2>
-            <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-            <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
-            <div class="product-container">
-                <div class="product-card">
-                    <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <img src="img/card1.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">add to whishlist</button>
-                    </div>    
-                    <div class="product-info">
-                        <h2 class="product-brand">branding</h2>
-                        <p class="product-short-des">a short line about gadget..</p>
-                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <img src="img/card2.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">add to whishlist</button>
-                    </div>    
-                    <div class="product-info">
-                        <h2 class="product-brand">branding</h2>
-                        <p class="product-short-des">a short line about gadget..</p>
-                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <img src="img/card3.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">add to whishlist</button>
-                    </div>    
-                    <div class="product-info">
-                        <h2 class="product-brand">branding</h2>
-                        <p class="product-short-des">a short line about gadget..</p>
-                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <img src="img/card4.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">add to whishlist</button>
-                    </div>    
-                    <div class="product-info">
-                        <h2 class="product-brand">branding</h2>
-                        <p class="product-short-des">a short line about gadget..</p>
-                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <img src="img/card5.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">add to whishlist</button>
-                    </div>    
-                    <div class="product-info">
-                        <h2 class="product-brand">branding</h2>
-                        <p class="product-short-des">a short line about gadget..</p>
-                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <img src="img/card6.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">add to whishlist</button>
-                    </div>    
-                    <div class="product-info">
-                        <h2 class="product-brand">branding</h2>
-                        <p class="product-short-des">a short line about gadget..</p>
-                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <span class="discount-tag">50% off</span>
-                        <img src="img/card7.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">add to whishlist</button>
-                    </div>    
-                    <div class="product-info">
-                        <h2 class="product-brand">branding</h2>
-                        <p class="product-short-des">a short line about gadget..</p>
-                        <span class="price">Rs.1,50,000</span><span class="actual-price">Rs.3,00,000</span>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
-
 
         <footer class="footer-distributed">
 		</footer>
         
     <!-- For js -->
         <script src="js/nav.js"></script>
-        <script src="js/home.js"></script>
         <script src="js/footer.js"></script>
-        <script src="js/product.js"></script>
     </body>
 </html>

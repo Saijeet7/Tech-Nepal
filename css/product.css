@@ -10,7 +10,7 @@
     width: 500px;
     height: 500px;
     position: relative;
-    background-image: url('../img/carosel1.jpg');
+    background-image: url('../img/product\ image\ 1.jpg');
     background-size: cover;
 }
 
@@ -85,7 +85,22 @@
 
 /* -----For buttons----- */
 
-.storage-radio-btn{
+.storage-radio-btn {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 0;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #383838;
+    cursor: pointer;
+}
+.ram-radio-btn{
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -106,6 +121,10 @@
     color: #fff;
 }
 
+.ram-radio-btn.check{
+    background: #383838;
+    color: #fff;
+}
 .btn{
     width: 48%;
     padding: 20px;
