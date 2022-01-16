@@ -1,0 +1,124 @@
+/*-------------------For Main Body -------------------*/
+
+main{
+    width:100%;
+    height:100%;
+    
+}
+.content{  /*For outter most box design 1st box layup*/
+    width:500px;
+    height:750px;
+    position:relative;
+    margin:5% auto;
+    border-radius:20px;
+    padding:5px;
+    background: #383838;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    flex-direction:column;
+}
+
+
+h1{
+    font-weight:bold;
+    margin:0;
+}
+h1{
+    text-align: center;
+    width:220px;
+    color:#fff;
+    margin:35px auto;
+    position: relative;
+}
+
+.social-icons{  /*For fb insta link icons*/
+    margin:30px auto;
+    text-align:center;
+}
+
+.social-icons img{   /*For fb insta link icons*/
+    width: 50px;
+    margin:0 12px;
+    box-shadow:#fff;
+    cursor:pointer;
+    border-radius:15%;
+    border: #fff;
+}
+
+.container{
+    position:relative;
+    transition:.5s;
+}
+
+.form-control{
+    width:100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    color:#fff;
+    border-bottom:1px solid #999;
+    outline:none;
+    background: transparent;
+}
+
+span{
+    widows: 100%;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    color:#fff;
+
+}
+
+
+.button{ /*Sign Up form Button*/
+
+    background: #fff;
+    color:#383838;
+    border-radius:20px;/*It makes button round in edge*/
+    border:none;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding:12px 45px;
+    letter-spacing: 1px;
+    transition: all .5s ease;/*For Animation*/
+}
+
+
+.button2{ /*For  Login Button*/
+
+    background: #fff;
+    color:#383838;
+    border-radius:15px;/*It makes button round in edge*/
+    border:none;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding:12px 45px;
+    letter-spacing: 1px;
+    transition: all .5s ease;/*For Animation*/
+}
+
+
+.button:hover{
+    background:#fc6e20;
+    color:#fff;
+}
+
+
+.button2:hover{
+    background:#fff;
+    color:#fc6e20;
+}
+
+.paragraph{
+    text-decoration: none;
+    padding:15px 15px;
+    color: #fff;
+}

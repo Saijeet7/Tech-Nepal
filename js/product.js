@@ -12,17 +12,17 @@ productImages.forEach((item, i) =>{
     })
 })
 
-//Toggle storage button
-const sizeBtns = document.querySelectorAll(".storage-radio-btn");
-let checkedBtn = 0;
+// //Toggle storage button
+// const sizeBtns = document.querySelectorAll(".storage-radio-btn");
+// let checkedBtn = 0;
 
-sizeBtns.forEach((item, i) =>{
-    item.addEventListener('click',() =>{
-        sizeBtns[checkedBtn].classList.remove('check');
-        item.classList.add('check');
-        checkedBtn = i;    
-    })
-})
+// sizeBtns.forEach((item, i) =>{
+//     item.addEventListener('click',() =>{
+//         sizeBtns[checkedBtn].classList.remove('check');
+//         item.classList.add('check');
+//         checkedBtn = i;    
+//     })
+// })
 
 //Toggle ram button
 const sizeBtns = document.querySelectorAll(".ram-radio-btn");
