@@ -7,7 +7,7 @@ main{
 }
 .content{  /*For outter most box design 1st box layup*/
     width:500px;
-    height:750px;
+    height:500px;
     position:relative;
     margin:5% auto;
     border-radius:20px;
@@ -75,7 +75,7 @@ span{
 
 
 .button{ /*Sign Up form Button*/
-
+    
     background: #fff;
     color:#383838;
     border-radius:2px;/*It makes button round in edge*/
