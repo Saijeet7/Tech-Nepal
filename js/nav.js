@@ -15,6 +15,7 @@ const creatNav = () =>{
     </div>
     <ul class="links-container">
         <li class="link-item"><a href="#" class="link">Product</li>
+        <li class="link-item"><a href="#" class="link">Categories</li>
         <li class="link-item"><a href="#" class="link">Blog</li>
         <li class="link-item"><a href="#" class="link">About Us</li>
     </ul>
