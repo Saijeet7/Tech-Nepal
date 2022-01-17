@@ -10,7 +10,7 @@ const creatNav = () =>{
                 <button class="search-btn"><a href="search.html">Search</a></button>
             </div>
             <a href="signup.html"><img src="img/user.png" alt=""></a>
-            <a href="#"><img src="img/cart.png" alt=""></a>
+            <a href="cart.html"><img src="img/cart.png" alt=""></a>
         </div>
     </div>
     <ul class="links-container">

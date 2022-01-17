@@ -139,8 +139,13 @@
 }
 
 .cart-btn{
+    text-decoration: none;
     margin-right: 2%;
     background: #383838;
+    color: #fff;
+}
+.cart-btn a{
+    text-decoration: none;
     color: #fff;
 }
 
