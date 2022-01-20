@@ -18,6 +18,7 @@ const creatNav = () =>{
         <li class="link-item"><a href="categories.html" class="link">Categories</li>
         <li class="link-item"><a href="blog.html" class="link">Blog</li>
         <li class="link-item"><a href="research.html" class="link">Research</li>
+        <li class="link-item"><a href="contactus.html" class="link">ContactUs</li>
     </ul>
     `;
 }

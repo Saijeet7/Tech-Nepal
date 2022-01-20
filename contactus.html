@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/contactus.css">
+                
+<!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
+
+    </head>
+    <body>
+        <!-- Nav bar -->
+        <nav class="navbar"></nav>
+
+        <div class="container">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <form name="contact_form" onsubmit="validateForm()">
+                        <h2>Contact Us</h2>
+                        <input type="text" class="field" placeholder="Your Name" name='name'>
+                        <input type="text" class="field" placeholder="Your Email" name='email'>
+                        <input type="text" class="field" placeholder="Phone" name='phone'>
+                        <textarea placeholder="Message" class="field"></textarea>
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-distributed">
+		</footer>
+        
+    <!-- For js -->
+        <script src="js/nav.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/footer.js"></script>
+        
+    <script>
+        /*Writing JavaScript Codes*/
+        function validateForm() {
+            var n = document.forms['contact_form']['name'].value;
+            var num = document.forms['contact_form']['phone'].value;
+            var email = document.forms['contact_form']['email'].value;
+            if (n == "" || num == "" || email == "") {
+                alert("Please fill in your Personal information for Sending Message");
+            } else {
+                alert("Thank You for your response!");
+            }
+        }
+    </script>
+    </body>
+</html>
