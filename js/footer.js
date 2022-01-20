@@ -27,7 +27,7 @@ const createFooter = () =>{
 
         <div>
             <i class="fa fa-map-marker"></i>
-            <p><span>Shop no 43, Alife Mall</span> Chabel, Kathmandu</p>
+            <p><span>Shop no 43, Alife Mall,</span> Chabel, Kathmandu</p>
         </div>
 
         <div>
@@ -46,7 +46,7 @@ const createFooter = () =>{
 
         <p class="footer-company-about">
             <span>About the company</span>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            One of Nepal's best technology and digital lifestyle retail portals is TechNepal. It offers the latest collection of electronics and electronic products at the most cheap prices, emulating an online shopping experience.
         </p>
 
         <div class="footer-icons">
