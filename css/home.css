@@ -82,7 +82,10 @@
     top: 10px;
     text-transform: capitalize;
 }
-
+.card-btn a{
+    text-decoration: none;
+    color: #000;
+}
 .card-btn{
     position: absolute;
     bottom: 10px;

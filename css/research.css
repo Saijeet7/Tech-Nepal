@@ -1,0 +1,48 @@
+.content{  /*For outter most box design 1st box layup*/
+    width:1000px;
+    height:100%;
+    position:relative;
+    margin:5% auto;
+    border-radius:5px;
+    font-family:'Times New Roman', Times, serif;
+    padding:10px;
+    padding-bottom: 100px;
+    background:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    flex-direction:column;
+}
+.content p{
+  text-align:left;
+  color:black;
+}
+
+.content h1{
+  font-weight:bold;
+  margin:0;
+}
+.content h1{
+  font-family: Arial, Helvetica, sans-serif;  
+  text-align: center;
+  color:#383838;
+  margin:25px auto;
+  position: relative;
+}
+
+/********************************* heaading****************************/
+h2{
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+
+.margin{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
